@@ -1,0 +1,36 @@
+drwxrwxr-x 3 pavan pavan 4096 Nov 27 12:16 myproject123
+-rw-rw-r-- 1 pavan pavan   15 Nov 27 12:00 README.md
+-rw-rw-r-- 1 pavan pavan   23 Nov 27 12:21 testfromsura.txt
+pavan@Pavan:~/git$ git clone https://github.com/Pavansura/forjenkins.git
+Cloning into 'forjenkins'...
+warning: You appear to have cloned an empty repository.
+Checking connectivity... done.
+pavan@Pavan:~/git$ ls -l
+total 16
+drwxrwxr-x 3 pavan pavan 4096 Nov 27 13:00 forjenkins
+drwxrwxr-x 3 pavan pavan 4096 Nov 27 12:16 myproject123
+-rw-rw-r-- 1 pavan pavan   15 Nov 27 12:00 README.md
+-rw-rw-r-- 1 pavan pavan   23 Nov 27 12:21 testfromsura.txt
+pavan@Pavan:~/git$ ls -l
+total 16
+drwxrwxr-x 3 pavan pavan 4096 Nov 27 13:00 forjenkins
+drwxrwxr-x 3 pavan pavan 4096 Nov 27 12:16 myproject123
+-rw-rw-r-- 1 pavan pavan   15 Nov 27 12:00 README.md
+-rw-rw-r-- 1 pavan pavan   23 Nov 27 12:21 testfromsura.txt
+pavan@Pavan:~/git$ ls -ltr
+total 56
+-rw-rw-r-- 1 pavan pavan    15 Nov 27 12:00 README.md
+drwxrwxr-x 3 pavan pavan  4096 Nov 27 12:16 myproject123
+-rw-rw-r-- 1 pavan pavan    23 Nov 27 12:21 testfromsura.txt
+drwxrwxr-x 3 pavan pavan  4096 Nov 27 13:00 forjenkins
+-rw-rw-r-- 1 pavan pavan 40111 Nov 27 14:03 lion.jpg
+pavan@Pavan:~/git$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	lion.jpg
+	myproject123/
+
