@@ -14,7 +14,6 @@ drwxrwxr-x 3 pavan pavan 4096 Nov 27 12:16 myproject123
 pavan@Pavan:~/git$ ls -l
 total 16
 drwxrwxr-x 3 pavan pavan 4096 Nov 27 13:00 forjenkins
-drwxrwxr-x 3 pavan pavan 4096 Nov 27 12:16 myproject123
 -rw-rw-r-- 1 pavan pavan   15 Nov 27 12:00 README.md
 -rw-rw-r-- 1 pavan pavan   23 Nov 27 12:21 testfromsura.txt
 pavan@Pavan:~/git$ ls -ltr
